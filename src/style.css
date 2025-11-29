@@ -2,8 +2,9 @@
   font-family: 'FlameBold';
   src: url('/assets/fonts/Flame-bold-font/fonnts.com-FlameBold.otf');
 }
-
-
+.flamebold{
+    font-family: 'FlameBold';
+}
 
 
 *{
@@ -75,10 +76,52 @@ nav{
     border-radius: 100px;
 }
 /* section-1 ended  */
+/* ---------------------------____________ */
 
 /* section-2 started */
-#section-2{
-    margin-top: 200px;
-    background-color: #502314;
+
+
+.child-section-2 > img {
+    
 }
+.child-section-2 {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    width: 580.64px;
+    height: 500px;
+    border: 2px solid black;
+    /* background-color: white; */
+    
+}
+.section-2-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    /* margin: 0 auto; */
+    gap: 25px;
+    
+}
+.button-section-2 {
+}
+/* #section-2 {
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+
 /* section-2 ended */
+
+/* _______---------------___________---__----_- */
+
+/* section-3 started  */
+
+
+
+
+
+/* section-3 ended  */

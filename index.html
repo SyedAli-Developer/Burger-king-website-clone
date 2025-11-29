@@ -1,18 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="./src/style.css">
-    <link rel="icon" href="./Assets/images/favicon-icon-burger-king.png" type="image/png" sizes="32x32">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="icon" href="./Assets/images/favicon-icon-burger-king.png" type="image/png" sizes="32x32" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
 </head>
 
 <body>
     <!-- header started -->
     <header class="flex justify-center items-center">
-
         <nav class="flex justify-between items-center">
             <i class="fa-solid fa-bars"></i>
             <div id="Main-logo">
@@ -26,7 +27,6 @@
                 </svg>
             </div>
             <div class="flex justify-between items-center gap-3">
-
                 <i class="fa-solid fa-user"></i>
 
                 <div id="cart-btn" class="flex justify-center items-center gap-1">
@@ -41,13 +41,12 @@
     <!-- main started  -->
 
     <main>
-
         <!-- first section started  -->
 
-        <section id="section-1" class="h-100 flex justify-around">
+        <section id="section-1" class="h-100 flex justify-around my-16">
             <div class="description w-[40%] flex flex-col justify-center items-center">
-                <div class=" h-[130px]">
-                    <p class="text-[3.6rem] text-[#502314] ">Go ahead,</p>
+                <div class="h-[130px]">
+                    <p class="text-[3.6rem] text-[#502314]">Go ahead,</p>
                     <p class="text-[3.6rem]/6 text-[#502314]">take a bite.</p>
                 </div>
                 <a href="" class="bg-[#d62300] text-[white] text-[1rem]"><i class="fa-solid fa-bag-shopping"></i> Order
@@ -56,63 +55,79 @@
                     Delivery</a>
             </div>
             <div class="b-img">
-                <img class="w-full" src="./Assets/images/Burger-image.avif" alt="">
+                <img class="w-full" src="./Assets/images/Burger-image.avif" alt="" />
             </div>
         </section>
 
         <!-- first section ended  -->
-
+        <br /><br /><br /><br />
         <!-- section-2 started  -->
-         
-         <section id="section-2">
-            <div class="section-2-p">
-                div.child-section-2*2
+
+        <section id="section-2" class="relative">
+            <div class="section-2-p bg-[yellow] ">
+                <div class=" flame-regular child-section-2 bg-[white]">
+                    <img src="https://braze-images.com/appboy/communication/marketing/content_cards_message_variations/images/691f7821a7d03900650fb454/511ca7f3aca7edc49ee2b258cdfd308e93d8d994/original.png?1763670303"
+                        alt="khato" />
+
+                    <h3 class="">Save with Walmart+ and BK®!</h3>
+                    <p>
+                        Royal Perks members get a Walmart+ membership for $7.77/
+                        month—that’s 40% off! This includes BK® digital savings like 25%
+                        off your order, every day, and a FREE Whopper® quarterly with
+                        purchase!
+                    </p>
+                    <a href="">See Terms.</a>
+                    <div
+                    <button class="button-section-2">Join Walmart+</button>
+                    </div>
+                </div>
+                <div class="flame-regular child-section-2 bg-[white] ">
+                    <img src="https://braze-images.com/appboy/communication/marketing/content_cards_message_variations/images/691cae3be78b7200724dc812/4e292e2723a66cf834faff42ea6ef0539c69bdeb/original.jpg?1763487295"
+                        alt="sonic" />
+                    <h3>Gotta go fast—Sonic toys are here!</h3>
+                    <p>
+                        Sonic and crew are racing into your King Jr.® Kids Meal! Catch 1
+                        of 6 toys—if you can keep up! Available only for a limited time
+                        while supplies last.
+                    </p>
+                    <a href="">See Terms.</a>
+                    <div class="button-p">
+                    <button class="button-section-2">Order Now</button>
+                    </div>
+                </div>
             </div>
-
-
-
-
-
-
-
-         </section>
+        </section>
 
         <!-- section-2 ended  -->
-         
+
         <!-- section-3 started  -->
-        <section id="section-3" class="h-100 flex flex-col justify-end">
-            <div class="flex h-90 bg-[#eee8de]">
+        <section id="section-3" class="h-[550px] flex flex-col justify-end relative">
+            <img class="absolute top-18 left-100" src="./Assets/images/burger-phone.avif" width="474px" alt="" />
 
-                <div class="phone-img w-[45%] relative top-1 z-10 ">
-                    <img width="450px" src="./Assets/images/burger-phone.avif" alt="">
-                </div>
-
-                <div class="p-description">
-                    <div class="flex">
-
-                        Save $$$ <br />
-                        With offers on demand
-
-                    </div>
+            <div class="h-[430px] bg-[#eee8de] flex justify-center gap-[50px]">
+                <div class="w-[600px] h-full "></div>
+                <div class="w-[600px] h-full bg-[yellow] flex justify-evenly flex-col gap-3 py-3">
                     <div>
 
+                        <h1 class="text-[3.2rem] flamebold text-[#502314] leading-[1]">Save $$$</h1>
+                        <h1 class="text-[3.2rem] flamebold text-[#502314] leading-[1]">with offers on demand</h1>
                     </div>
-                    <div>
-
+                    <div class="flex justify-start gap-[35px]">
+                        <img width="180px" src="./Assets/images/app store.webp" alt="">
+                        <img width="180px" src="./Assets/images/google play store.webp" alt="">
+                    </div>
+                    <div class="text-[0.9rem] text-[#502314]">
+                        Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Terms apply.
                     </div>
                 </div>
-
-
             </div>
         </section>
         <!-- section-3 ended  -->
-
     </main>
 
     <!-- main ended  -->
-
-
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <script src="https://kit.fontawesome.com/0b93ff58c6.js" crossorigin="anonymous"></script>
 
 </html>
