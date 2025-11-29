@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'FlameBold';
+  src: url('/assets/fonts/Flame-bold-font/fonnts.com-FlameBold.otf');
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f1e7;
+}
+
+/* ------------------------------------------- */
+
+
+/* navbar started */
+
+.fa-bars{
+    font-size: 20px;
+    color: #502314;
+    
+}
+.fa-cart-shopping{
+    font-size: 15px;
+}
+.fa-user{
+    font-size: 16px;
+    color: #502314;
+}
+header{
+    height: 55px;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.404);
+}
+nav{
+    width: 1200px;
+    margin: 0px 20px;
+}
+#Main-logo{
+    width: 170px;
+}
+#cart-btn{
+    font-size: 0.8rem;
+    color: #706d68;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+#cart-btn span{
+    font-weight: 700;
+}
+
+/* nav bar ended */
+
+/* ---------------------------- */
+
+/* section-1 started  */
+
+.description{
+    font-family: FlameBold;
+}
+.description a{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    
+    border-radius: 100px;
+}
+/* section-1 ended  */
+
+/* section-2 started */
+#section-2{
+    margin-top: 200px;
+    background-color: #502314;
+}
+/* section-2 ended */
